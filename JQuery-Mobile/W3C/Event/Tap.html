@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" href="http://code.jquery.com/mobile/1.3.2/jquery.mobile-1.3.2.min.css">
+<script src="http://code.jquery.com/jquery-1.8.3.min.js"></script>
+<script src="http://code.jquery.com/mobile/1.3.2/jquery.mobile-1.3.2.min.js"></script>
+<script>
+$(document).on("pageinit","#pageone",function(){
+  $("p").on("tap",function(){
+    $(this).hide();
+  });                       
+});
+</script>
+</head>
+<body>
+<!--runkezhang's notebook
+下面表示对应的内容信息和元素。
+tap 事件在用户敲击某个元素时触发。
+taphold 事件在用户敲击某个元素并保持一秒时被触发：
+swipe 事件在用户在某个元素上水平滑动超过 30px 时被触发：
+swipeleft 事件在用户在某个元素上从左滑动超过 30px 时被触发：
+swiperight 事件在用户在某个元素上从右滑动超过 30px 时被触发：
+-->
+
+<div data-role="page" id="pageone">
+  <div data-role="header">
+    <h1>tap 事件</h1>
+  </div>
+
+  <div data-role="content">
+    <p>敲击我，我会消失。</p>
+    <p>敲击我，我会消失。</p>
+    <p>敲击我，我也会消失。</p>
+  </div>
+
+  <div data-role="footer">
+    <h1>页脚文本</h1>
+  </div>
+</div> 
+
+
+</body>
+</html>
