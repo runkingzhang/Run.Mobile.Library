@@ -1,0 +1,41 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="utf-8">
+<title>无标题文档</title>
+<!-- the three things that jQuery Mobile needs to work -->
+    <link rel="stylesheet" href="../jquery.mobile-1.0rc2/jquery.mobile-1.0rc2.css" />
+    <script src="../jquery-1.6.4.js" type="text/javascript"></script>
+    <script src="../jquery.mobile-1.0rc2/jquery.mobile-1.0rc2.js" type="text/javascript"></script>
+</head>
+
+<body>
+<!-- runkezhang's notebook
+Collapsible 是类库总体的内置效果。
+
+-->
+
+            <p>Collapsible block:</p>
+            <div data-role="collapsible">
+                <h1>I'm a collapsible block</h1>
+                <p>I'm the content in the collapsible block.</p>
+            </div>
+
+            <p>Defaults to open:</p>
+            <div data-role="collapsible" data-collapsed="false">
+                <h1>I'm a collapsible block</h1>
+                <p>I'm the content in the collapsible block.</p>
+            </div>
+
+            <p>Nested Collapsible blocks:</p>
+            <div data-role="collapsible">
+                <h1>I'm a collapsible block</h1>
+                <p>I'm the content in the collapsible block.</p>
+                <div data-role="collapsible">
+                    <h1>I'm a nested collapsible block</h1>
+                    <p>I'm the content in the nested collapsible block.</p>
+                </div>
+            </div>
+
+</body>
+</html>

@@ -147,7 +147,8 @@ Buttons:
                 <button>button b</button>
                 <button>button c</button>
             </div>
-
+			
+			
             <!-- buttons with icons -->
             <p>Buttons with icons in them:</p>
             <a href="#" data-role="button" data-icon="arrow-u" data-iconpos="top">Up</a>

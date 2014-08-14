@@ -21,5 +21,6 @@ plan 8月14日 看完Lynda.com - Mobile Web Design & Development Fundamentals
 
 8月11日，看完《HTML5移动Web开发指南》的Jquey moblie的内容，对其有简单的了解
 
-### 学习笔记
+### 学习笔记、
+
 学习笔记自己都写在代码里面，自己回顾一下代码内容就可以找到自己当时的一个想法和内容。
